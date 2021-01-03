@@ -1,0 +1,85 @@
+@font-face{
+    font-family:'Open Sans';
+    font-display:swap;
+    src:url(https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhv.woff)
+}
+
+body{
+    font-size: 20px !important;
+    background-color: #212529 !important;
+    font-family: 'Open Sans' !important;
+}
+
+.label{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.pswd-help{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.btn-login{
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    background-color:  rgb(113, 119, 143);
+    border: 0px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.btn-login:hover{
+    background-color:rgba(113, 119, 143,0.7);
+}
+
+.pswd-container{
+    width: 60%;
+    position: relative;
+    margin-right: 20px;
+}
+
+.pswd-field{
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: 48px !important;
+    padding-right: 30px !important;
+}
+
+.warning{
+    margin-bottom: -3px;
+    margin-top: 5px;
+    color: rgb(253, 75, 75);
+    font-size: 15px;
+}
+
+.exclamation{
+    position: absolute;
+    color: red;
+    font-size: 8px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px 5px;
+    left: 90%;
+    top: 33%;
+    visibility: hidden;
+}
+
+.check{
+    color: green;
+    font-size: 20px;
+    position: absolute;
+    left: 90%;
+    top: 25%;
+    visibility: hidden;
+}
+
+@media only screen and (max-width:470px){
+    .pswd-container{
+        width: 100% !important;
+    }
+}
